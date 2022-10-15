@@ -4,10 +4,9 @@
 storage/**
 .venv
 test/
-
-# All
-**/.expo
-**/.expo
-**/.env
 **/logs/
 **/.idea
+**/.env
+.vscode
+
+
