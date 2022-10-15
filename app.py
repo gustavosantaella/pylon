@@ -9,7 +9,6 @@ try:
     app = Flask(import_name=__name__, static_folder='./storage')
     # app.config["CACHE_TYPE"] = "null"
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = -1
-
     bycrypt = Bcrypt(app)
     db = connect(host=env('MONGO_URI'))
     if env("run_socketio") == 'True' or env("run_socketio") == "true":
