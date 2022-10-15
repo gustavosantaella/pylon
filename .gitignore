@@ -1,0 +1,13 @@
+# Backend project
+**/__pycache__
+.env
+storage/**
+.venv
+test/
+
+# All
+**/.expo
+**/.expo
+**/.env
+**/logs/
+**/.idea
