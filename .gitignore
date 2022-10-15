@@ -1,0 +1,12 @@
+# Backend project
+**/__pycache__
+.env
+storage/**
+.venv
+test/
+**/logs/
+**/.idea
+**/.env
+.vscode
+
+
