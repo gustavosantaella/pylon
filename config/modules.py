@@ -10,9 +10,10 @@ def register_modules():
             join = "".join(file)
             module = join.replace('\\', '.')
             index = module.find('.py')
-            module = module[0:index]
+            # module = module[0:index]
             if 'modules' in module and 'controller' in module:
-                __import__(f'src.{module}')
+                # module = module.replace(".py", "")
+                __import__(f'src.{module[0:-3]}')
     except Exception as e:
         raise Exception(f'An error ocurred to find module; {e}')
     
