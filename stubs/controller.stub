@@ -1,0 +1,5 @@
+from flask import request
+from utils import response
+
+class {{class_name}}:
+    pass
