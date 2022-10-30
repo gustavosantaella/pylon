@@ -1,0 +1,4 @@
+from flask import request, abort, jsonify
+
+def {{middleware_name}}(next, *arg, **args):
+    next(*arg, **args)
