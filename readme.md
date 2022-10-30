@@ -7,7 +7,7 @@ Pylon Framework
 leading to rapid development.
 Pylon can adapted to various patterns like MVC, repository pattern or somthing similar.
 </p>
-<br/>
+<hr/>
 <h3>How to run project?</h3>
 <code> python app.py or flask run</code>
 <p>
