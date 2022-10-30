@@ -10,9 +10,7 @@ def required_args(required_args:dict):
             if not args[required_arg]:
              raise Exception(f"{required_arg} parameter is required.")
 def create_controller(args):
-    required_args(
-        ['directory', "filename", "controller"]
-    ) 
+    required_args(['directory', "filename", "controller"]) 
     directory = args['directory']
     filename  = args['filename'] + "_controller"
     directory_destination = f"{module_directory}/{directory}"
@@ -30,9 +28,7 @@ def create_controller(args):
             main_file.write(line)
   
 def create_middleware(args):          
-    required_args(
-        ["middleware"]
-    ) 
+    required_args(["middleware"]) 
     
     middleware = args["middleware"]
     middlewares_path = f"{middlewares_directory}/{middleware}.py"
