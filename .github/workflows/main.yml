@@ -5,11 +5,11 @@ on:
       - 'main' # Push events to matching v*, i.e. v1.0, v20.15.10
     workflow_dispatch: "workflow_dispatch example"
 
-name: Create Release example
+name: Create Release 
 
 jobs:
   build:
-    name: Create Release example
+    name: Create Release 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -20,8 +20,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ github.run_number }}
+          release_name: Release ${{ github.run_number }}
           body: |
             Changes in this Release
             - First Change
