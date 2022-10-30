@@ -3,7 +3,9 @@ Pylon Framework
 </h1>
 <hr/>
 <p>
-Please go to visit the <a href="https://semver.org/">Semantic versions</a>
+<strong>Pylon framework</strong> is based on the Flask tool. Pylon is created to facilitate the development of web systems or APIs.
+leading to rapid development.
+Pylon can adapted to various patterns like MVC, repository pattern or somthing similar.
 </p>
 <br/>
 <h3>How to run project?</h3>
