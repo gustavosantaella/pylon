@@ -9,6 +9,7 @@ Pylon can adapted to various patterns like MVC, repository pattern or somthing s
 </p>
 <hr/>
 <h3>How to run project?</h3>
+<hr/>
 <code> python app.py or flask run</code>
 <p>
 You need a .env file inside of project to define <code>FLASK_ENV</code> variable.
