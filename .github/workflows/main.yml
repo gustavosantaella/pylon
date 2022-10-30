@@ -1,19 +1,20 @@
 on:
   push:
     # Sequence of patterns matched against refs/tags
-    tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+    branches:
+      - 'main' # Push events to matching v*, i.e. v1.0, v20.15.10
+    workflow_dispatch: "workflow_dispatch example"
 
-name: Create Release
+name: Create Release example
 
 jobs:
   build:
-    name: Create Release
+    name: Create Release example
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Create Release
+      - name: Create Release example
         id: create_release
         uses: actions/create-release@v1
         env:
