@@ -11,7 +11,8 @@ Pylon can adapted to various patterns like MVC, repository pattern or somthing s
 <h2>How to run project?</h2>
 <code> python app.py or flask run</code>
 <p>
-You need a .env file inside of project to define <code>FLASK_ENV</code> variable.
+You need a .env file inside of project to define 
+<code>FLASK_ENV=development | production </code> variable.
 </p>
 <h2>Scafolding</h2>
 <div>
@@ -52,8 +53,7 @@ You need a .env file inside of project to define <code>FLASK_ENV</code> variable
          </code>
           You can create manually 
            the controller or you can run pylon file with parameters.  </br>
-        For example:
-         
+        For example:      
         <code>python pylon -c user -f user -d user</code>
           </p>
         </td>
