@@ -5,7 +5,7 @@ Pylon Framework
 <p>
 <strong>Pylon framework</strong> is based on the Flask tool. Pylon is created to facilitate the development of web systems or APIs.
 leading to rapid development.
-Pylon can adapted to various patterns like MVC, repository pattern or somthing similar.
+Pylon can adapted to various patterns like MVC, repository pattern or something similar.
 </p>
 <hr/>
 <h2>
