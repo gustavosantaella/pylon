@@ -39,12 +39,27 @@ You need a .env file inside of project to define <code>FLASK_ENV</code> variable
           Middleware directory contains all functions that execute before each requests for each endpoint
         </td>
       </tr>
+       <tr>
+        <td>
+          src/modules
+        </td>
+        <td>
+          Modules directory contains all subdirectories modules. <br>
+          For example:
+          <code>src/modules/user/usercontroller.py</code>
+          You can create manually 
+           the controller or you can run pylon file with parameters. <br>
+        For example:
+
+          <code>python pylon -c user -f user -d user</code>
+        </td>
+      </tr>
       <tr>
         <td>
           src/routes
         </td>
         <td>
-          routes for your applications. <br> /api or / or you can add a new prefix.
+          routes for your application. <br> /api or / or you can add a new prefix.
         </td>
       </tr>
     </tbody>
