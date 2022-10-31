@@ -14,7 +14,7 @@ Pylon file
 <p>
 The Pylon file is an executable to create various resources. </br>
 You can create a <b>controllers and middlewares</b>
-To run pylon file. You must execute python pylon <"flags">
+To run pylon file. You must execute python pylon.py <"flags">
 
 <table>
     <thead>
@@ -114,7 +114,7 @@ You need a .env file inside of project to define
           You can create manually 
            the controller or you can run pylon file with parameters.  </br>
         For example:      
-        <code>python pylon -c user -f user -d user</code>
+        <code>python pylon.py -c user -f user -d user</code>
           </p>
         </td>
       </tr>
