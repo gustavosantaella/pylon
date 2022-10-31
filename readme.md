@@ -47,12 +47,14 @@ You need a .env file inside of project to define <code>FLASK_ENV</code> variable
          <p>
             Modules directory contains all subdirectories modules. </br>
           For example:
-          <code>src/modules/user/usercontroller.py</code>
+          <code>
+            src/modules/user/usercontroller.py
+         </code>
           You can create manually 
            the controller or you can run pylon file with parameters.  </br>
         For example:
          
-         python pylon -c user -f user -d user
+        <code>python pylon -c user -f user -d user</code>
           </p>
         </td>
       </tr>
