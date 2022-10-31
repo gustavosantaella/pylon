@@ -44,7 +44,7 @@ You need a .env file inside of project to define <code>FLASK_ENV</code> variable
           src/modules
         </td>
         <td>
-          Modules directory contains all subdirectories modules. <br>
+          Modules directory contains all subdirectories modules. </br>
           For example:
           <code>src/modules/user/usercontroller.py</code>
           You can create manually 
