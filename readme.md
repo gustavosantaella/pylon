@@ -8,6 +8,66 @@ leading to rapid development.
 Pylon can adapted to various patterns like MVC, repository pattern or somthing similar.
 </p>
 <hr/>
+<h2>
+Pylon file
+</h2>
+<p>
+The Pylon file is an executable to create various resources. </br>
+You can create a <b>controllers and middlewares</b>
+To run pylon file. You must execute python pylon <"flags">
+
+<table>
+    <thead>
+        <tr>
+            <td>
+                Parameter
+            </td>
+            <td>
+                Description
+            </td>
+            <td>
+            Required parameters
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                -c, --controller
+            </td>
+            <td>
+                Create a new controller. This flag work to set a class name for the controller.
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        -dir | --directory
+                    </li>
+                    <li>
+                        -f | --filename
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                -f, --filename
+            </td>
+            <td>
+                Required for create  others resources. </br> This flag is of string type and it will be filename to create
+            </td>
+        </tr>
+         <tr>
+            <td>
+                -dir, --directory
+            </td>
+            <td>
+                Required for create  others resources. </br> This flag is of string type and it will be the container to the resource
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
 <h2>How to run project?</h2>
 <code> python app.py or flask run</code>
 <p>
