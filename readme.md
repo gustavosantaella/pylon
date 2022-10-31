@@ -14,6 +14,42 @@ Pylon can adapted to various patterns like MVC, repository pattern or somthing s
 You need a .env file inside of project to define <code>FLASK_ENV</code> variable.
 </p>
 <h2>Scafolding</h2>
+<div>
+  <table>
+     <thead>
+       <tr>
+         <td>Folder</td>
+         <td>Description</td>
+       </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          src
+        </td>
+        <td>
+          Source code
+        </td>
+      </tr>
+       <tr>
+        <td>
+          src/middlewares
+        </td>
+        <td>
+          Middleware directory contains all functions that execute before each requests for each endpoint
+        </td>
+      </tr>
+      <tr>
+        <td>
+          src/routes
+        </td>
+        <td>
+          routes for your applications. <br> /api or / or you can add a new prefix.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <hr/>
 <h3>
 Config
