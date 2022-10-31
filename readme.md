@@ -52,7 +52,7 @@ You need a .env file inside of project to define <code>FLASK_ENV</code> variable
            the controller or you can run pylon file with parameters.  </br>
         For example:
          
-          <code>python pylon -c user -f user -d user</code>
+         python pylon -c user -f user -d user
           </p>
         </td>
       </tr>
